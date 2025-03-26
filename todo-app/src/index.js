@@ -1,4 +1,6 @@
 import React from "react";
+import "tailwindcss/tailwind.css";
+import "./index.css"; 
 
 export default function TodoItem({ number, text }) {
   return (
